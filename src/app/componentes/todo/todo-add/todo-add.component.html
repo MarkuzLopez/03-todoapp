@@ -1,0 +1,8 @@
+<header class="header">
+    <h1>Todos</h1>
+    <input class="new-todo"
+     placeholder="¿Que necesitas guardar.?" 
+     [formControl]="txtInput  "     
+     (keyup.enter)="agegarTodo()"
+     autofocus>
+  </header>
